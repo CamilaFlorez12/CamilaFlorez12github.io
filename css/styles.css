@@ -78,13 +78,14 @@ max-width: 100vw;
     display: flex;
 }
 .foto{
-    width:70%;
-    height: 65%;
+    width:90%;
+    max-width: 300px;
+    height: auto;
     border-radius: 100%;
     border:5px solid #ffffff;
     margin: 2vw;
     margin-inline-start: 10%;
-    animation: mover 1s ease-in-out ;
+    animation: mover 1s ease-in-out forwards;
     animation-delay: 1.1s;
 }
 .nombre{
@@ -92,14 +93,16 @@ max-width: 100vw;
     align-items: flex-end;
     justify-content: start;
     text-align: left;
-    font-size: 115%;
+    font-size: 1.5vw;
+    margin-left: 5%;
 }
 .estudiante{
     display: flex;
     align-items: flex-end;
     justify-content:start;
     text-align: left;
-    font-size: 100%;
+    font-size: 1.5vw;
+    margin-left: 5%;
 
 }
 #perfil{
